@@ -6,3 +6,7 @@ class users(BaseModel):
     level : int
     exp : int
     streak : int
+
+class login(BaseModel):
+    username: str
+    hashed_password : str
