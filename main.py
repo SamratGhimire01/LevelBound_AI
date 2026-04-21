@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from auth import auth_router
+from auth.router import auth_router
 
 app = FastAPI(description="Welcome to LevelBound AI.")
 @app.get('/')
