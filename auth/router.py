@@ -101,3 +101,4 @@ async def read_user_me(current_user=Depends(get_current_user)):
     return current_user
 
 # Logout(sign out) - Client side can simply delete the token, but we can also implement token blacklisting for enhanced security.
+# For simplicity, we will not implement token blacklisting in this example.
